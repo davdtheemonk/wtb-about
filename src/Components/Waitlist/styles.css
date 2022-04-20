@@ -1,0 +1,100 @@
+.waitlist__cont_over{
+    display:flex;
+   flex:1;
+   width:auto;
+    background-color: rgb(51, 51, 51);
+}
+.waitlist__cont{
+    display:flex;
+    flex-direction: row;
+}
+.waitlist__pic{
+    width: 450px;
+    height:450px
+}
+.form__wait>h3{
+    color: rgb(152, 158, 235);
+    font-size: 45px;
+
+}
+.waitlist__form{
+    margin-left: auto;
+    display: flex;
+    flex-direction: column;
+
+}
+form{
+    display: flex;
+    flex-direction: column;
+    line-height:20px;
+
+}
+@media screen and (max-width:768px){
+  .waitlist__pic{
+      width:200px;
+  }
+  .form__wait>h3{
+   font-size:25px;  
+}
+textarea{
+    width: 230px!important;
+    color: white;
+}
+
+    
+}
+@media screen and (min-width:768px){
+    input{
+        color:rgb(51, 51, 51) !important;
+
+        width: 400px !important;
+    }
+
+}
+textarea{
+    margin-bottom: 20px;
+    width: 430px;
+  
+
+}
+input{
+    font-size: 10px;
+
+   margin-bottom: 20px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    padding: 10px 17px 10px;
+    outline: 0;
+    width: 200px;
+
+    position: relative;
+  
+    user-select: none;
+    -webkit-user-select: none;
+    color:white;
+
+    touch-action: manipulation;
+    margin-right: 80px;
+
+}
+.waitlist_btn{
+    font-size: 10px;
+
+   
+    font-weight: bold;
+    letter-spacing: 1px;
+    padding: 10px 17px 10px;
+    outline: 0;
+ cursor: pointer;
+    position: relative;
+    background-color: rgb(51, 51, 51);
+    user-select: none;
+    -webkit-user-select: none;
+    color:rgb(152, 158, 235);
+ 
+    border-radius: 30px;
+    touch-action: manipulation;
+    margin-right: 80px;
+    
+}
+

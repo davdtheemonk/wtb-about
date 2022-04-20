@@ -1,0 +1,151 @@
+.started__cont_over{
+    display:flex;
+    height:100vh;
+    width:auto;
+    max-width: auto;
+    flex-direction: column;
+    background-color: rgb(51, 51, 51);
+    flex:1;
+}
+.get_started{
+    background-color: rgb(104, 103, 103);
+    width: 920px;
+    margin-left: 44px;
+    margin-top:80px;
+    line-height: 5px;
+    display:flex;
+    flex-direction:row;
+    border-radius: 30px;
+}
+.get_started__date>h3{
+    color: rgb(152, 158, 235);
+    font-size: 45px;
+}
+
+.get_started_date{
+    display:flex;
+    flex-direction:row;
+ 
+}
+
+.news-btn{
+    font-size: 16px;
+    font-weight: 200;
+    letter-spacing: 1px;
+    padding: 13px 20px 13px;
+    outline: 0;
+    border: 1px solid linear-gradient(to right,blue 66%,white 34%);
+    cursor: pointer;
+    color:rgb(152, 158, 235);
+    border-radius: 30px;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    margin-bottom: 20px;
+  
+    
+}
+.news-btn:after {
+    content: "";
+    background-color: #ffe54c;
+    width: 100%;
+    z-index: -1;
+    position: absolute;
+    height: 100%;
+    top: 7px;
+    left: 7px;
+    transition: 0.2s;
+  }
+  
+  .news-btn:hover:after {
+    top: 0px;
+    left: 0px;
+  }
+.get_started_pic{
+    margin:auto;
+    display: flex;
+    width: 450px;
+    height: 350px;
+    border-radius: 30px;
+  
+}
+.get_started__date{
+    margin-left: 60px;
+    margin-right: 60px;
+}
+.get_started_date1{
+    color:white;
+    font-weight: bold;
+}
+.get_started_date2{
+    margin-left: 10px;
+    font-weight: bold;
+    color: rgb(209, 199, 199);
+}
+.get_started_desc{
+    width: 450px;
+    line-height: 25px;
+    
+}
+.get_started_desc>p{
+    color: white;
+}
+.get_started_timer{
+    background-color:rgb(87, 84, 84);;
+    margin-top: 20px;
+    width: 460px;
+    margin-left: 44px;
+    border-radius:20px;
+}
+.get_started_timer>h4{
+    margin-left: 60px;
+    color: rgb(209, 199, 199);;
+
+}
+
+.get_started_boxes{
+    display:flex;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    
+    justify-content:space-around;
+    flex-direction: row;
+}
+.get_started_hours{
+    border-radius: 20px;
+    width:105px;
+    background-color: gray;
+    height:65px;
+
+}
+.get_started_minutes{
+    border-radius: 20px;
+    width:105px;
+    height:65px;
+    background-color: gray;
+
+}
+.get_started_seconds{
+    border-radius: 20px;
+    width:105px;
+    height:65px;
+    background-color: gray;
+
+}
+@media screen and (max-width:768px) {
+    .get_started{
+        flex-direction: column;
+        width: 460px;
+        margin-left: 14px;
+    }
+    .get_started_desc{
+        width: 310px!important;
+
+    }
+    .get_started_timer{
+        margin-left: 14px;
+    }
+    
+}
