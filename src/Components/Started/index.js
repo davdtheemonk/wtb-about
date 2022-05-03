@@ -71,7 +71,7 @@ export default function Home(){
         </BootstrapDialogTitle>
         <DialogContent sx={{backgroundColor:"rgb(51,51,51)",color:"white"}} dividers>
           <Typography gutterBottom>
-         Here at wtb  we are focused to develop a platform for programming curriculums.We aim at providing,100% an ecosystem that supports online video conferencing ,collaboration and interaction between students.Providing an end-to-end environment for students to collaborate on courses and course work.
+          We are focused to develop a platform for programming curriculums.We aim at providing,100% an ecosystem that supports online video conferencing ,collaboration and interaction between students.Providing an end-to-end environment for students to collaborate on courses and course work.
          
           </Typography>
         </DialogContent>
