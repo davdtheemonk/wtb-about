@@ -43,10 +43,11 @@
     
     }
     .faqs_pic{
+        
         display:none;
     }
     .faqs_pic2{
-        width:200px;
+        display:none;
 
     }
 
