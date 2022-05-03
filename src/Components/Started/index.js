@@ -86,7 +86,7 @@ export default function Home(){
                 <p className="get_started_date2">Mombasa,Kenya</p>
                 </div>
                 <div className="get_started_desc">
-                <p>To revolutionize is to change.We are trying to focus on building a future in the way tech courses are taught.There has been an increase in Students engaging in online bootcamps to further their enthusiast and interest in programming.Here at .... we are building a platform for organizations or individuals that want to offer tech education especially in programming in an approach that includes collaboration and interactivity.</p>
+                <p>To revolutionize is to change.We are trying to focus on building a future in the way tech courses are taught.There has been an increase in Students engaging in online bootcamps to further their enthusiast and interest in programming.We are building a platform for organizations or individuals that want to offer tech education especially in programming in an approach that includes collaboration and interactivity.</p>
                 </div>
                 
                 <button className="news-btn" onClick={handleClickOpen}>Our Mission</button>
